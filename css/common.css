@@ -166,4 +166,10 @@ footer {
     .inner {
         width: 1100px;
     }
+    .f-gnb {
+        display: none;
+    }
+    .footer-weap {
+        margin-left: 5rem;
+    }
 }

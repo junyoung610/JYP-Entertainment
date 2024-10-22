@@ -194,12 +194,7 @@
         justify-content: space-between;
         gap: 45rem;
     }
-    .f-gnb {
-        display: none;
-    }
-    .footer-weap {
-        margin-left: 5rem;
-    }
+
     .Goal p {
         margin: 0 auto;
         margin-top: 3rem;
