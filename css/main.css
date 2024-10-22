@@ -200,4 +200,9 @@
     .footer-weap {
         margin-left: 5rem;
     }
+    .Goal p {
+        margin: 0 auto;
+        margin-top: 3rem;
+        width: 85%;
+    }
 }
