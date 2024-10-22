@@ -180,4 +180,11 @@
     .Goal p {
         font-size: 1.6rem;
     }
+    .news {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+        align-content: center;
+    }
 }
