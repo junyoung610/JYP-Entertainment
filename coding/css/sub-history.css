@@ -1,0 +1,53 @@
+@charset 'utf-8';
+
+.history-full {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.history-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 67rem;
+}
+
+.history {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.txt-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem 2.5rem;
+    align-items: center;
+    font-weight: 600;
+    margin-top: 5rem;
+}
+
+.txt-box h3 {
+    width: 67rem;
+    font-size: 3.8rem;
+    color: var(--main-color);
+}
+
+.txt-box strong {
+    font-size: 3.2rem;
+    color: #222;
+}
+
+.txt-box p {
+    font-size: 2.8rem;
+    color: #333;
+}
+
+.info-txt {
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 2.5rem;
+}
