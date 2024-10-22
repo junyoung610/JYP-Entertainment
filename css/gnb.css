@@ -167,6 +167,7 @@ img {
 
     .btn-mobile-menu {
         display: block;
+        width: 25px;
         height: 26px;
     }
     .mobile-gnb {
