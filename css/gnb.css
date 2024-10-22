@@ -173,7 +173,7 @@ img {
     .mobile-gnb {
         display: none; /* 기본적으로 숨김 */
         position: fixed;
-        top: 140px;
+        top: 90px;
         left: 0;
         width: 600px;
         background-color: #333; /* 배경색 설정 */
