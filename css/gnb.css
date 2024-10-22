@@ -169,6 +169,17 @@ img {
         display: block;
         width: 25px;
         height: 26px;
+        position: relative;
+    }
+    .btn-mobile-menu:hover::after {
+        content: "";
+        display: block;
+        width: 25px;
+        height: 26px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #fff url(../img/common/media-close.png) no-repeat 0 0;
     }
     .mobile-gnb {
         display: none; /* 기본적으로 숨김 */
