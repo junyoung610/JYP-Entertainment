@@ -152,25 +152,6 @@
     color: var(--main-color);
 }
 
-/* NOTICE */
-
-.notice-info {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #d9d9d9;
-    height: 10rem;
-}
-
-.notice-title {
-    font-weight: 600;
-    font-size: 2rem;
-}
-.notice-list li a {
-    width: 125.1rem;
-    display: flex;
-    justify-content: space-between;
-}
 .news {
     display: flex;
     gap: 2.5rem;
@@ -193,5 +174,10 @@
         margin: 0 auto;
         margin-top: 3rem;
         width: 85%;
+    }
+}
+@media (max-width: 600px) {
+    .Goal p {
+        font-size: 1.8rem;
     }
 }
