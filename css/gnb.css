@@ -154,6 +154,7 @@ img {
     .gnb-wrap {
         justify-content: space-between;
         align-items: center;
+        gap: 4rem;
     }
 
     .btn-mobile-menu {

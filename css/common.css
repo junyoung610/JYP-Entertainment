@@ -188,14 +188,19 @@ footer {
         display: flex;
         justify-content: space-between;
         gap: 1.3rem;
+        font-size: 1rem;
     }
     .f-gnb {
         display: none;
     }
     .footer-weap {
-        margin-left: 5rem;
+        margin: 0;
+        width: 100%;
     }
     .artist-swiper .swiper-pagination {
         margin-bottom: -2rem;
+    }
+    .set-title {
+        font-size: 3rem;
     }
 }

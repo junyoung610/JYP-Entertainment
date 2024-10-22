@@ -76,3 +76,14 @@
     pointer-events: none;
     user-select: none;
 }
+
+@media (max-width: 600px) {
+    .artist-swiper {
+        margin-top: 5rem;
+    }
+    .artist-pic li {
+        width: 85%;
+        height: 80%;
+        margin: 0 auto;
+    }
+}
