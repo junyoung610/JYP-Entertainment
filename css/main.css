@@ -188,12 +188,6 @@
     .news {
         gap: 3.5rem;
     }
-    .notice-list li a {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        gap: 45rem;
-    }
 
     .Goal p {
         margin: 0 auto;
