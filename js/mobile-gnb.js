@@ -1,18 +1,15 @@
-// // 메뉴 열기
-// document.querySelector(".btn-mobile-menu").addEventListener("click", function () {
-//     document.querySelector(".mobile-gnb").classList.toggle("active");
-// });
+function toggleMenu() {
+    const mobileMenu = document.getElementById("mobileMenu");
+    const btn1 = document.getElementById("btn1");
+    const btn2 = document.getElementById("btn2");
 
-// // 메뉴 닫기 (X 버튼 클릭 시)
-// document.querySelector(".btn-close-menu").addEventListener("click", function () {
-//     document.querySelector(".mobile-gnb").classList.remove("active");
-// });
-
-document.addEventListener("DOMContentLoaded", function () {
-    const btnMobileMenu = document.querySelector(".btn-mobile-menu");
-    const mobileGnb = document.querySelector(".mobile-gnb");
-
-    btnMobileMenu.addEventListener("click", function () {
-        mobileGnb.classList.toggle("active"); // active 클래스 토글
-    });
-});
+    if (mobileMenu.style.display === "none") {
+        mobileMenu.style.display = "block";
+        btn1.style.display = "none";
+        btn2.style.display = "inline-block";
+    } else {
+        mobileMenu.style.display = "none";
+        btn1.style.display = "inline-block";
+        btn2.style.display = "none";
+    }
+}

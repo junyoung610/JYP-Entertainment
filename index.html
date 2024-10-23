@@ -65,10 +65,19 @@
                         </ul>
                     </nav>
                     <!-- mobile-gnb -->
-                    <button class="btn-mobile-menu">
+                    <!-- <button class="btn-mobile-menu">
                         <img src="./img/common/media-menu.png" alt="" />
-                    </button>
-                    <nav class="mobile-gnb">
+                    </button> -->
+
+                    <div class="menu">
+                        <button id="btn1" onclick="toggleMenu()">
+                            <img src="./img/common/media-menu.png" alt="" />
+                        </button>
+                        <button id="btn2" style="display: none" onclick="toggleMenu()">
+                            <img src="./img/common/media-close.png" alt="" />
+                        </button>
+                    </div>
+                    <nav class="mobile-gnb" id="mobileMenu" style="display: none">
                         <ul>
                             <li>
                                 <a href="#">JYP</a>

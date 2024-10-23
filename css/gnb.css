@@ -181,23 +181,8 @@ img {
         height: 26px;
     }
 
-    .btn-mobile-menu {
-        display: block;
-        width: 25px;
-        height: 26px;
-        position: relative;
-    }
-
-    .btn-mobile-menu:hover::after {
-        content: "";
-        display: block;
-        width: 25px;
-        height: 26px;
-        position: absolute;
-        top: 0;
-        left: 0;
-        background: #fff no-repeat center;
-        background-image: url(../img/common/media-close.png);
+    button {
+        background: none;
     }
 
     .mobile-gnb {
@@ -212,10 +197,6 @@ img {
         z-index: 9999; /* 상단에 보이게 설정 */
         padding: 20px;
         box-sizing: border-box;
-    }
-
-    .mobile-gnb.active {
-        display: block; /* active 상태일 때 보여줌 */
     }
 
     .mobile-gnb ul > li {
