@@ -168,6 +168,9 @@ footer {
     .inner {
         width: 90%;
     }
+    section {
+        padding: 5rem 0;
+    }
     .notice-list li a {
         width: 100%;
         display: flex;
@@ -179,6 +182,9 @@ footer {
     }
     .footer-weap {
         margin-left: 5rem;
+    }
+    .sub-set-title {
+        font-size: 3.8rem;
     }
 }
 
@@ -202,5 +208,8 @@ footer {
     }
     .set-title {
         font-size: 3rem;
+    }
+    .sub-set-title {
+        font-size: 2.8rem;
     }
 }
