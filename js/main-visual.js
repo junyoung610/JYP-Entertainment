@@ -32,7 +32,7 @@ function initializeSwiper() {
             spaceBetween: 20, // 슬라이드 간격 20px
             loop: true,
             speed: 500,
-            autoplay: true,
+            // autoplay: true,
             pagination: {
                 el: ".swiper-pagination",
                 clickable: true,
@@ -45,7 +45,7 @@ function initializeSwiper() {
             spaceBetween: 40, // 슬라이드 간격 40px
             loop: true,
             speed: 500,
-            autoplay: true,
+            // autoplay: true,
             pagination: {
                 el: ".swiper-pagination",
                 clickable: true,

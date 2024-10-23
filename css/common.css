@@ -50,6 +50,7 @@ hr,
 section {
     padding: 10rem 0;
 }
+
 /* inner */
 .inner {
     width: 134.4rem;
@@ -69,6 +70,7 @@ section {
 .sub-set-title {
     font-weight: 600;
     font-size: 4.8rem;
+    margin-top: 1.5rem;
 }
 
 /* NOTICE */
@@ -218,7 +220,7 @@ footer {
         width: 100%;
     }
     .artist-swiper .swiper-pagination {
-        margin-bottom: -2rem;
+        margin-bottom: 3.5rem;
     }
     .set-title {
         font-size: 3rem;
