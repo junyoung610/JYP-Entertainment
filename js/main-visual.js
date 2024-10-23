@@ -15,7 +15,7 @@
 let swiper = null;
 
 // 미디어 쿼리 설정
-const mediaQuery = window.matchMedia("(max-width: 600px)");
+const mediaQuery = window.matchMedia("(max-width: 800px)");
 
 // Swiper 초기화 함수
 function initializeSwiper() {

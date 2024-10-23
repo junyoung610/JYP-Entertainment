@@ -172,7 +172,7 @@ footer {
         width: 100%;
         display: flex;
         justify-content: space-between;
-        gap: 45rem;
+        gap: 15rem;
     }
     .f-gnb {
         display: none;

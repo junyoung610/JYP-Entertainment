@@ -146,6 +146,11 @@ img {
         gap: 220px;
     }
 }
+@media (max-width: 800px) {
+    .gnb-wrap {
+        gap: 90px;
+    }
+}
 
 @media (max-width: 600px) {
     #header {

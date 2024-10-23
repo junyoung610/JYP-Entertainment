@@ -175,6 +175,9 @@
         margin-top: 3rem;
         width: 85%;
     }
+    .album-pic {
+        width: 300px;
+    }
 }
 @media (max-width: 600px) {
     .Goal p {
