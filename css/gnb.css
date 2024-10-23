@@ -185,8 +185,12 @@ img {
         background: none;
     }
 
+    .menu,
     .mobile-gnb {
-        display: none; /* 기본적으로 숨김 */
+        display: block;
+    }
+    .mobile-gnb {
+        /* display: none; 기본적으로 숨김 */
         position: absolute; /* 스크롤과 관계없이 고정 */
         top: 90px; /* 헤더 바로 아래 위치 */
         left: 0;
