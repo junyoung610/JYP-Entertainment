@@ -94,8 +94,8 @@ section {
 .news {
     display: flex;
     gap: 2.5rem;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
 }
 
 /* footer */
@@ -193,7 +193,7 @@ footer {
         width: 100%;
         display: flex;
         flex-direction: column;
-        gap: 1.2rem;
+        gap: 0.2rem;
         font-size: 1.3rem;
     }
     .f-gnb {
