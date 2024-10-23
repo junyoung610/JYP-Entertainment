@@ -171,6 +171,19 @@
     .album-pic {
         width: 300px;
     }
+    .hover-txt strong {
+        font-size: 2rem;
+    }
+    .hover-txt h4 {
+        font-size: 3.2rem;
+    }
+
+    .hover-btn button {
+        width: 12rem;
+    }
+    .hover-btn {
+        bottom: 15%;
+    }
 }
 @media (max-width: 600px) {
     .Goal p {
