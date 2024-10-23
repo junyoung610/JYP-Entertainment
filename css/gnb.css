@@ -157,7 +157,7 @@ img {
 }
 @media (max-width: 800px) {
     .gnb-wrap {
-        gap: 0;
+        gap: 11.5rem;
         justify-content: center;
     }
 }
