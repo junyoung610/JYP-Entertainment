@@ -192,8 +192,8 @@ footer {
     .notice-list li a {
         width: 100%;
         display: flex;
-        justify-content: space-between;
-        gap: 3rem;
+        flex-direction: column;
+        gap: 1.2rem;
         font-size: 1.3rem;
     }
     .f-gnb {

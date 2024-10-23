@@ -139,12 +139,10 @@ img {
 .gnb-wrap {
     display: flex;
     align-items: center;
-    gap: 635px;
+    justify-content: space-between;
+    gap: 645px;
 }
 @media (max-width: 1100px) {
-    .gnb-wrap {
-        gap: 220px;
-    }
     #header .gnb > ul > li .sub_gnb {
         left: auto;
         right: 0;
@@ -152,10 +150,15 @@ img {
     #header .gnb > ul > li > a {
         font-size: 1.9rem;
     }
+    .gnb-wrap {
+        gap: 0;
+        justify-content: center;
+    }
 }
 @media (max-width: 800px) {
     .gnb-wrap {
-        gap: 50px;
+        gap: 0;
+        justify-content: center;
     }
 }
 
@@ -223,8 +226,7 @@ img {
     }
 
     .mobile-gnb ul > li {
-        /* margin-bottom: 2rem; */
-        margin-top: 1.6rem;
+        margin: 3rem 0;
     }
 
     .mobile-gnb ul > li > a {
@@ -233,11 +235,15 @@ img {
         font-size: 2.2rem;
         align-self: start;
     }
+
+    .mobile-gnb .sub_gnb li {
+        margin: 0;
+        margin-top: 1rem;
+    }
     .mobile-gnb .sub_gnb li a {
         font-weight: 400;
         font-size: 1.4rem;
         color: #fff; /* 서브 GNB에 흰색 글자색 적용 */
-        margin: 0;
     }
 
     .sub_gnb {
