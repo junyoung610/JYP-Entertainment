@@ -191,6 +191,17 @@ footer {
 }
 
 @media (max-width: 600px) {
+    .news {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* align-content: center; */
+    }
+    .notice-list strong {
+        font-size: 1.6rem;
+    }
     .notice-list li a {
         width: 100%;
         display: flex;
