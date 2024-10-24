@@ -6,30 +6,53 @@
     color: var(--main-color);
 }
 .esg-body {
-    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    /* background: #000000; */
+    flex-wrap: wrap;
+    gap: 5rem 10rem;
 }
 
 .esg-txt {
-    padding: 2rem;
-}
-.esg-txt:hover {
-    color: var(--main-color);
+    width: 45%;
+    padding: 5.5rem;
+    border-radius: 10px;
 }
 
-.esg-txt strong {
+.esg-txt:nth-child(1) {
+    background-image: url(../img/esg/Vision.jpg);
+}
+.esg-txt:nth-child(2) {
+    background: rgba(0, 0, 0, 0.9) url(../img/esg/Leadership.jpg) 50%;
+}
+.esg-txt:nth-child(3) {
+    background: rgba(0, 0, 0, 0.9) url(../img/esg/Sustainable.jpg) 50%;
+}
+.esg-txt:nth-child(4) {
+    background: rgba(0, 0, 0, 0.9) url(../img/esg/Social.jpg) 50%;
+}
+.esg-txt:nth-child(5) {
+    background: rgba(0, 0, 0, 0.9) url(../img/esg/Environmental.jpg) 50%;
+}
+
+.back {
+    height: 100%;
+}
+
+.back strong {
+    color: #fff;
     font-weight: 700;
     font-size: 3rem;
     display: flex;
-    align-items: center;
-    gap: 1.5rem;
+    flex-direction: column;
 }
-.esg-txt strong b {
+.back strong b {
     font-size: 2rem;
 }
-.esg-txt p {
-    padding: 0.5rem;
+.back p {
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 1.6rem;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .sub-title {
