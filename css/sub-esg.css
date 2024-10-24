@@ -207,3 +207,50 @@
         font-size: 1rem;
     }
 }
+
+@media (max-width: 600px) {
+    .ESG h3 {
+        font-size: 2rem;
+    }
+    .esg-txt strong b {
+        font-size: 1.2rem;
+    }
+    .esg-txt strong {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0;
+    }
+    .l-body figure {
+        width: 38rem;
+    }
+    .l-body {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .body-txt strong {
+        font-size: 2rem;
+    }
+    .body-txt p {
+        font-size: 1.5rem;
+        padding: 0.2rem;
+    }
+
+    .ESG-SYSTEM p {
+        font-size: 1.8rem;
+    }
+
+    .flex-ESG {
+        flex-direction: column;
+        gap: 5rem;
+    }
+    .flex-ESG li {
+        width: 100%;
+    }
+    .txt-system strong {
+        font-size: 2.9rem;
+    }
+    .txt-system p {
+        font-size: 2rem;
+    }
+}
