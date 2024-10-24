@@ -151,7 +151,7 @@ img {
         font-size: 1.9rem;
     }
     .gnb-wrap {
-        gap: 0;
+        gap: 155px;
         justify-content: center;
     }
 }

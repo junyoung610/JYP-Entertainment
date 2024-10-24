@@ -195,10 +195,15 @@
         font-size: 1.9rem;
     }
     .txt-system p {
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
 
     .l-body {
         gap: 10rem;
+    }
+}
+@media (max-width: 800px) {
+    .txt-system p {
+        font-size: 1rem;
     }
 }
