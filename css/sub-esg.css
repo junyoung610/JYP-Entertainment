@@ -1,0 +1,191 @@
+@charset 'utf-8';
+
+.ESG h3 {
+    font-weight: 600;
+    font-size: 3rem;
+    color: var(--main-color);
+}
+.esg-body {
+    padding: 1rem;
+}
+
+.esg-txt {
+    padding: 2rem;
+}
+.esg-txt:hover {
+    color: var(--main-color);
+}
+
+.esg-txt strong {
+    font-weight: 700;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.esg-txt strong b {
+    font-size: 2rem;
+}
+.esg-txt p {
+    padding: 0.5rem;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.sub-title {
+    font-weight: 600;
+    font-size: 3rem;
+    color: var(--main-color);
+}
+/* l-body */
+
+.l-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15rem;
+    margin: 2.5rem auto;
+}
+
+.l-body figure {
+    width: 40rem;
+    /* border-radius: 10px; */
+}
+.l-body img {
+    border-radius: 10px;
+}
+
+.body-txt {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1.5rem;
+}
+
+.body-txt h4 {
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+.body-txt h4 b {
+    color: var(--main-color);
+}
+
+.body-txt strong {
+    font-weight: 700;
+    font-size: 3rem;
+}
+.body-txt p {
+    padding: 0.5rem;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+/* ESG-SYSTEM */
+
+.ESG-SYSTEM {
+    background: #f1f1f1;
+    text-align: center;
+}
+.ESG-SYSTEM h4 {
+    font-weight: 600;
+    font-size: 3rem;
+}
+.ESG-SYSTEM p {
+    padding: 1rem 0;
+    font-weight: 600;
+    font-size: 1.9rem;
+}
+.ESG-SYSTEM-body strong {
+    display: block;
+    text-align: left;
+    padding: 1.5rem 0;
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.flex-ESG {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-ESG li {
+    background: rgb(255, 255, 255);
+    border: 3px solid var(--main-color);
+    border-radius: 10px;
+    padding: 5.5rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    color: #000000;
+    width: 400px;
+    width: 30%;
+}
+
+.flex-ESG li .txt-system::before {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    background: no-repeat 50%;
+    transition: 0.3s;
+}
+
+.flex-ESG li:nth-child(1) .txt-system::before {
+    background-image: url(../img/esg/earth-line.png);
+}
+.flex-ESG li:nth-child(2) .txt-system::before {
+    background-image: url(../img/esg/team-line.png);
+}
+.flex-ESG li:nth-child(3) .txt-system::before {
+    background-image: url(../img/esg/hearts-line.png);
+}
+
+.flex-ESG li:nth-child(1):hover .txt-system::before {
+    background-image: url(../img/esg/earth-fill.png);
+}
+.flex-ESG li:nth-child(2):hover .txt-system::before {
+    background-image: url(../img/esg/team-fill.png);
+}
+.flex-ESG li:nth-child(3):hover .txt-system::before {
+    background-image: url(../img/esg/hearts-fill.png);
+}
+
+.txt-system {
+    width: 100%;
+    text-align: center;
+}
+
+.txt-system strong {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.9rem;
+    color: var(--main-color);
+    margin-bottom: 0;
+}
+
+.txt-system p {
+    padding: 0;
+    font-weight: 400;
+    font-size: 2.2rem;
+}
+
+@media (max-width: 1100px) {
+    .ESG-SYSTEM h4 {
+        font-size: 2.4rem;
+    }
+    .ESG-SYSTEM p {
+        font-size: 1.5rem;
+    }
+    .ESG-SYSTEM-body strong {
+        font-size: 1.9rem;
+    }
+    .txt-system strong {
+        font-size: 2.3rem;
+    }
+    .txt-system p {
+        font-size: 1.6rem;
+    }
+}
