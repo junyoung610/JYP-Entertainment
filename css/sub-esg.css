@@ -6,15 +6,16 @@
     color: var(--main-color);
 }
 .esg-body {
+    margin-top: 2.5rem;
     display: flex;
-    justify-content: space-between;
     /* background: #000000; */
     flex-wrap: wrap;
-    gap: 5rem 10rem;
+    gap: 5rem;
 }
 
 .esg-txt {
-    width: 45%;
+    /* width: 45%; */
+    flex: 1 1 max(420px, 45%);
     padding: 5.5rem;
     border-radius: 10px;
     position: relative;
@@ -55,6 +56,7 @@
     font-size: 2rem;
 }
 .back p {
+    margin-top: 1.6rem;
     font-weight: 600;
     font-size: 1.6rem;
     color: rgba(255, 255, 255, 0.8);
@@ -70,13 +72,13 @@
 .l-body {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 15rem;
+    gap: 6rem;
     margin: 2.5rem auto;
 }
 
 .l-body figure {
-    width: 40rem;
+    width: 80rem;
+    height: 45rem;
     /* border-radius: 10px; */
 }
 .l-body img {
@@ -84,6 +86,9 @@
 }
 
 .body-txt {
+    /* width: 65rem; */
+    flex: 1 1 max(420px, 45%);
+
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -92,7 +97,7 @@
 
 .body-txt h4 {
     font-weight: 500;
-    font-size: 1.8rem;
+    font-size: 2.3rem;
 }
 .body-txt h4 b {
     color: var(--main-color);
@@ -100,10 +105,9 @@
 
 .body-txt strong {
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 3.3rem;
 }
-.body-txt p {
-    padding: 0.5rem;
+.body-txt ul li {
     font-weight: 600;
     font-size: 2.5rem;
 }
@@ -227,10 +231,9 @@
     }
 
     .l-body {
-        gap: 10rem;
-    }
-    .esg-body {
-        gap: 2rem 0;
+        margin: 3rem auto;
+        gap: 1.5rem;
+        flex-wrap: wrap;
     }
 }
 @media (max-width: 800px) {
@@ -255,23 +258,24 @@
         gap: 0;
     }
     .l-body figure {
-        width: 35rem;
+        width: 100%;
     }
     .l-body {
         flex-direction: column;
         gap: 0;
+        align-items: normal;
     }
 
     .body-txt strong {
         font-size: 2rem;
     }
-    .body-txt p {
+    .body-txt ul li {
         font-size: 1.5rem;
         padding: 0;
     }
 
     .ESG-SYSTEM p {
-        font-size: 1.8rem;
+        font-size: 1.3rem;
     }
 
     .flex-ESG {
@@ -288,14 +292,13 @@
         font-size: 2rem;
     }
 
-    .esg-body {
-        margin-top: 5rem;
-        justify-content: space-around;
-    }
     .esg-txt {
         width: 90%;
     }
     .body-txt {
+        padding: 0;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
         width: 35.2rem;
         gap: 1rem;
     }
