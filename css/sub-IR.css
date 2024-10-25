@@ -1,0 +1,130 @@
+.tabs {
+    display: flex;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    border-bottom: 2.5px solid #009be6;
+}
+
+.tab-button {
+    flex: 1;
+    padding: 15px;
+    cursor: pointer;
+    background-color: #fff;
+    border: none;
+    border-right: 1px solid #ccc;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.tab-button.active {
+    background-color: #ffffff;
+    border: 1.5px solid #009be6;
+    /* border-bottom: none; */
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.charts {
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem auto 10rem;
+}
+
+.chart-container {
+    width: 330px;
+    height: 330px;
+    margin: 0 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+canvas {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    width: 16.67%;
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: right;
+
+    border-right: none;
+    border-left: none;
+}
+
+thead > tr {
+    border-top: 2.5px solid var(--main-color);
+}
+
+th {
+    background-color: #f9f9f9;
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+
+td {
+    font-weight: 400;
+    font-size: 1.5rem;
+    background-color: #fff;
+}
+
+td:first-child {
+    font-size: 1.6rem;
+}
+
+th,
+td:first-child {
+    font-weight: 600;
+    text-align: center;
+}
+
+tbody tr:nth-child(1) td {
+    background: #eee;
+}
+
+tbody tr:nth-child(1) td:hover {
+    background: rgba(0, 184, 235, 0.2);
+}
+tbody tr:nth-child(3) td {
+    background: #eee;
+}
+
+tbody tr:nth-child(3) td:hover {
+    background: rgba(0, 184, 235, 0.2);
+}
+tbody tr:nth-child(5) td {
+    background: #eee;
+}
+
+tbody tr:nth-child(5) td:hover {
+    background: rgba(0, 184, 235, 0.2);
+}
+tbody tr:nth-child(10) td {
+    background: #eee;
+}
+
+tbody tr:nth-child(10) td:hover {
+    background: rgba(0, 184, 235, 0.2);
+}
+tbody tr:nth-child(12) td {
+    background: #eee;
+}
+
+tbody tr:nth-child(12) td:hover {
+    background: rgba(0, 184, 235, 0.2);
+}

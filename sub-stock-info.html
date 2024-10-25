@@ -6,12 +6,13 @@
         <title>JYP Entertainment</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
         <link rel="stylesheet" href="./css/reset.css" />
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
         <link rel="stylesheet" href="./css/common.css" />
         <link rel="stylesheet" href="./css/gnb.css" />
         <link rel="stylesheet" href="./css/sub-esg.css" />
+        <link rel="stylesheet" href="./css/sub-IR.css" />
 
         <script src="./js/mobile-gnb.js"></script>
+        <script src="./js/sub-IR.js" defer></script>
     </head>
     <body>
         <a href="#main" class="hidden">본문 바로가기</a>
@@ -118,137 +119,141 @@
 
         <main id="main">
             <div class="inner">
-                <h2 class="sub-set-title">ESG STRATEGY</h2>
+                <h2 class="sub-set-title">IR</h2>
             </div>
 
-            <section class="ESG">
+            <section class="IR">
                 <div class="inner">
-                    <h3>LEADER OF CHANGE</h3>
-
-                    <div class="esg-body">
-                        <div class="esg-txt">
-                            <div class="back">
-                                <strong>비전 수립 <b>Vision Establishment</b></strong>
-                                <p>
-                                    JYP엔터테인먼트는 "LEADER IN ENTERTAINMENT"라는 회사의 핵심 가치와 목표 아래,
-                                    지속가능한 경영을 실천하기 위해 ‘Leader of Change’라는 혁신적인 ESG 비전을
-                                    수립하였습니다.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="esg-txt">
-                            <div class="back">
-                                <strong>책임 있는 리더십 <b>Responsible Leadership</b></strong>
-                                <p>
-                                    이 비전은 단순히 기업의 이익을 넘어, 사회와 환경에 긍정적인 영향을 미치는 리더로서의
-                                    책임을 다하겠다는 의지를 담고 있습니다.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="esg-txt">
-                            <div class="back">
-                                <strong>지속 가능한 변화 <b>Sustainable Change</b></strong>
-                                <p>
-                                    JYP는 창의적이고 지속 가능한 변화를 주도하며, 다양한 분야에서 지속가능한 세상을
-                                    만들기 위해 적극적으로 노력하고 있습니다.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="esg-txt">
-                            <div class="back">
-                                <strong>사회적 가치 실현 <b>Realizing Social Value</b></strong>
-                                <p>
-                                    우리는 음악과 예술을 통해 선한 영향력을 전파하고, 지역 사회와의 협력을 통해 사회적
-                                    가치를 실현해 나가고 있습니다.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="esg-txt">
-                            <div class="back">
-                                <strong
-                                    >환경 보호와 사회적 책임
-                                    <b>Environmental Protection and Social Responsibilit</b></strong
-                                >
-                                <p>
-                                    환경 보호와 사회적 책임을 최우선으로 하여, 모든 이해관계자와 함께 지속 가능한 미래를
-                                    만들어 나가고자 합니다.
-                                </p>
-                            </div>
-                        </div>
+                    <div class="tabs">
+                        <button class="tab-button active" onclick="openTab(event, 'income-statement')">
+                            손익계산서
+                        </button>
+                        <button class="tab-button" onclick="openTab(event, 'balance-sheet')">재무상태표</button>
+                        <button class="tab-button" onclick="openTab(event, 'cash-flow')">현금흐름표</button>
                     </div>
-                </div>
-            </section>
-
-            <section class="LEADER">
-                <div class="inner">
-                    <h2 class="sub-title">Leader of Change</h2>
-
-                    <div class="l-body">
-                        <figure><img src="./img/esg/Leader/image_fx_ (4).jpg" alt="" /></figure>
-                        <div class="body-txt">
-                            <h4>Change for the <b>Dreamers</b></h4>
-                            <strong>모두의 꿈이 이루어지는 세상을 만듭니다.</strong>
-                            <ul>
-                                <li>가치 실현의 기회 제공</li>
-                                <li>성장 기반 마련</li>
-                            </ul>
+                    <!-- 손익계산서 탭 -->
+                    <div id="income-statement" class="tab-content active">
+                        <div class="charts">
+                            <div class="chart-container">
+                                <canvas id="chart1"></canvas>
+                            </div>
+                            <div class="chart-container">
+                                <canvas id="chart2"></canvas>
+                            </div>
+                            <div class="chart-container">
+                                <canvas id="chart3"></canvas>
+                            </div>
                         </div>
-                    </div>
-                    <div class="l-body">
-                        <figure><img src="./img/esg/Leader/Leader2.jpg" alt="" /></figure>
-                        <div class="body-txt">
-                            <h4>Change for the <b>Planet</b></h4>
-                            <strong>지구 환경 보전에 힘쓰고 친환경 가치를 전파합니다.</strong>
-                            <ul>
-                                <li>기후변화 대응</li>
-                                <li>친환경 가치 확산</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="l-body">
-                        <figure><img src="./img//esg/Leader/Leader3.jpg" alt="" /></figure>
-                        <div class="body-txt">
-                            <h4>Change for the <b>Society</b></h4>
-                            <strong>다양한 가치가 공유되며 상생할 수 있는 사회를 만듭니다.</strong>
-                            <ul>
-                                <li>소셜 콘텐츠 제작</li>
-                                <li>파트너 동반성장 지원</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="ESG-SYSTEM">
-                <div class="inner">
-                    <h4>ESG MANAGEMENT SYSTEM</h4>
-                    <p>
-                        JYP엔터테인먼트는 'Leader of Change' 라는 ESG 비전을 더욱 체계적으로 실현하기 위해 이사회 산하에
-                        ESG위원회를 설치<br />ESG협의체 및 ESG실무협의체를 운영하며 환경 및 사회적 책임 전반에 대한
-                        활동을 전개하고 있습니다.
-                    </p>
-                    <div class="ESG-SYSTEM-body">
-                        <strong>ESG 관리조직 체계 </strong>
-                        <ul class="flex-ESG">
-                            <li>
-                                <div class="txt-system">
-                                    <strong>ESG위원회</strong>
-                                    <p>ESG 전략 방향 설정<br />의사결정의 중추적 역할 수행</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="txt-system">
-                                    <strong>ESG협의체</strong>
-                                    <p>ESG 실적 모니터링 및 개선방안 검토<br />지속가능경영보고서 발간</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="txt-system">
-                                    <strong>ESG실무협의체</strong>
-                                    <p>ESG 비전 설정 및 실행<br />다양한 ESG 프로젝트 지원</p>
-                                </div>
-                            </li>
-                        </ul>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>항목</th>
+                                    <th>2019년</th>
+                                    <th>2020년</th>
+                                    <th>2021년</th>
+                                    <th>2022년</th>
+                                    <th>2023년</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>매출액</td>
+                                    <td>155.4</td>
+                                    <td>144.4</td>
+                                    <td>193.9</td>
+                                    <td>345.9</td>
+                                    <td>566.5</td>
+                                </tr>
+                                <tr>
+                                    <td>매출원가</td>
+                                    <td>79.4</td>
+                                    <td>67.5</td>
+                                    <td>89.7</td>
+                                    <td>189.3</td>
+                                    <td>298.2</td>
+                                </tr>
+                                <tr>
+                                    <td>매출총이익</td>
+                                    <td>76.1</td>
+                                    <td>76.9</td>
+                                    <td>104.2</td>
+                                    <td>156.6</td>
+                                    <td>268.3</td>
+                                </tr>
+                                <tr>
+                                    <td>판매비와 관리비</td>
+                                    <td>32.6</td>
+                                    <td>32.8</td>
+                                    <td>46.2</td>
+                                    <td>59.9</td>
+                                    <td>98.8</td>
+                                </tr>
+                                <tr>
+                                    <td>영업이익</td>
+                                    <td>43.5</td>
+                                    <td>44.1</td>
+                                    <td>57.9</td>
+                                    <td>96.6</td>
+                                    <td>169.4</td>
+                                </tr>
+                                <tr>
+                                    <td>기타이익</td>
+                                    <td>0.8</td>
+                                    <td>0.0</td>
+                                    <td>0.6</td>
+                                    <td>0.3</td>
+                                    <td>0.8</td>
+                                </tr>
+                                <tr>
+                                    <td>기타손실</td>
+                                    <td>0.5</td>
+                                    <td>2.1</td>
+                                    <td>3.2</td>
+                                    <td>2.1</td>
+                                    <td>6.7</td>
+                                </tr>
+                                <tr>
+                                    <td>금융수익</td>
+                                    <td>2.7</td>
+                                    <td>2.9</td>
+                                    <td>18.5</td>
+                                    <td>5.9</td>
+                                    <td>6.1</td>
+                                </tr>
+                                <tr>
+                                    <td>금융원가</td>
+                                    <td>3.3</td>
+                                    <td>6.9</td>
+                                    <td>2.6</td>
+                                    <td>7.3</td>
+                                    <td>17.8</td>
+                                </tr>
+                                <tr>
+                                    <td>법인세비용차감전순이익</td>
+                                    <td>43.0</td>
+                                    <td>38.0</td>
+                                    <td>85.9</td>
+                                    <td>94.1</td>
+                                    <td>155.7</td>
+                                </tr>
+                                <tr>
+                                    <td>법인세비용</td>
+                                    <td>11.8</td>
+                                    <td>8.4</td>
+                                    <td>18.4</td>
+                                    <td>26.6</td>
+                                    <td>50.7</td>
+                                </tr>
+                                <tr>
+                                    <td>당기순이익</td>
+                                    <td>31.2</td>
+                                    <td>29.6</td>
+                                    <td>67.5</td>
+                                    <td>67.5</td>
+                                    <td>105.0</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </section>
@@ -342,6 +347,7 @@
                 </div>
             </div>
         </footer>
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     </body>
 </html>
