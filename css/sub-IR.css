@@ -128,3 +128,22 @@ tbody tr:nth-child(12) td {
 tbody tr:nth-child(12) td:hover {
     background: rgba(0, 184, 235, 0.2);
 }
+
+@media (max-width: 600px) {
+    .charts {
+        flex-direction: column;
+        gap: 25px;
+    }
+    .chart-container {
+        width: 100%;
+    }
+    th {
+        font-size: 1.5rem;
+    }
+    td {
+        font-size: 1.2rem;
+    }
+    td:first-child {
+        font-size: 1.3rem;
+    }
+}
