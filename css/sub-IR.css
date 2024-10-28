@@ -146,4 +146,14 @@ tbody tr:nth-child(12) td:hover {
     td:first-child {
         font-size: 1.3rem;
     }
+
+    table {
+        width: 100%; /* 화면 너비에 맞춤 */
+        overflow-x: auto; /* 가로 스크롤 추가 */
+        display: block;
+    }
+    th,
+    td {
+        padding: 10px; /* 셀 여백 조정 */
+    }
 }
