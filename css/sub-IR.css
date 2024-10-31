@@ -1,6 +1,6 @@
 .tabs {
     display: flex;
-    background-color: #f4f4f4;
+    /* background-color: #f4f4f4; */
     border-radius: 10px;
     border-bottom: 2.5px solid #009be6;
 }
@@ -10,8 +10,7 @@
     padding: 15px;
     cursor: pointer;
     background-color: #fff;
-    border: none;
-    border-right: 1px solid #ccc;
+    border: 1px solid #ccc;
     font-weight: 700;
     border-radius: 10px;
 }
