@@ -107,4 +107,24 @@ section {
     .hover-txt {
         gap: 1rem;
     }
+    .album-wrap {
+        justify-content: space-evenly;
+        margin: 0;
+    }
+    .album-pic {
+        width: 300px;
+    }
+    .hover-txt strong {
+        font-size: 2rem;
+    }
+    .hover-txt h4 {
+        font-size: 3.2rem;
+    }
+
+    .hover-btn button {
+        width: 12rem;
+    }
+    .hover-btn {
+        bottom: 15%;
+    }
 }
