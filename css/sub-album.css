@@ -102,3 +102,9 @@ section {
     border: 1px solid var(--main-color);
     color: var(--main-color);
 }
+
+@media (max-width: 600px) {
+    .hover-txt {
+        gap: 1rem;
+    }
+}
