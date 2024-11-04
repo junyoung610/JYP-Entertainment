@@ -103,7 +103,7 @@ section {
     color: var(--main-color);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1100px) {
     .hover-txt {
         gap: 1rem;
     }
