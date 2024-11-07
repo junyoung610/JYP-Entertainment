@@ -28,7 +28,7 @@
     width: 45.7rem;
     height: 37rem;
 
-    margin-bottom: 4rem;
+    margin-bottom: 7rem;
 }
 .artist-pic img {
     border-radius: 10px;
@@ -36,7 +36,7 @@
 }
 .artist-pic strong {
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 2.6rem;
 }
 .artist-swiper {
     margin-top: 10rem;
@@ -52,7 +52,7 @@ figure {
 }
 .visual-txt {
     position: absolute;
-    top: 20%;
+    top: 0%;
     left: 10%;
     transform: translateY(50%);
     /* background: red; */
@@ -61,11 +61,11 @@ figure {
 }
 
 .visual-slide strong {
-    font-size: 4rem;
+    font-size: 10rem;
     font-weight: 800;
 }
 .visual-slide p {
-    font-size: 2rem;
+    font-size: 5.5rem;
     font-weight: 600;
 }
 
@@ -82,7 +82,21 @@ figure {
     user-select: none;
 }
 
+@media (max-width: 1100px) {
+    .visual-txt {
+        top: 10%;
+    }
+    .visual-slide strong {
+        font-size: 5rem;
+    }
+    .visual-slide p {
+        font-size: 2.2rem;
+    }
+}
 @media (max-width: 600px) {
+    .visual-txt {
+        top: 10%;
+    }
     .artist-pic {
         width: 420px;
     }

@@ -19,12 +19,13 @@
     padding: 5.5rem;
     border-radius: 10px;
     position: relative;
-    background-color: rgba(0, 0, 0, 0.4); /* 배경색 */
+    background-color: rgba(0, 155, 230, 80%); /* 배경색 */
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay; /* 이미지와 배경색 섞임 */
 }
 
+/*
 .esg-txt:nth-child(1) {
     background-image: url(../img/esg/Vision.jpg);
 }
@@ -40,6 +41,7 @@
 .esg-txt:nth-child(5) {
     background-image: url(../img/esg/Environmental.jpg);
 }
+    */
 
 .back {
     height: 100%;
