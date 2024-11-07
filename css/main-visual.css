@@ -52,7 +52,7 @@ figure {
 }
 .visual-txt {
     position: absolute;
-    top: 0%;
+    top: 5%;
     left: 10%;
     transform: translateY(50%);
     /* background: red; */
@@ -65,7 +65,7 @@ figure {
     font-weight: 800;
 }
 .visual-slide p {
-    font-size: 5.5rem;
+    font-size: 3rem;
     font-weight: 600;
 }
 

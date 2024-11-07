@@ -1,8 +1,6 @@
 .tabs {
     display: flex;
-    /* background-color: #f4f4f4; */
-    border-radius: 10px;
-    border-bottom: 2.5px solid #009be6;
+    gap: 2rem;
 }
 
 .tab-button {
@@ -10,14 +8,16 @@
     padding: 20px;
     cursor: pointer;
     background-color: #fff;
-    border: 1px solid #ccc;
+    border: 1px solid #009be6;
+    color: var(--main-color);
     font-weight: 700;
     border-radius: 10px;
 }
 
 .tab-button.active {
-    background-color: #ffffff;
-    border: 1.5px solid #009be6;
+    background-color: #009be6;
+    color: #fff;
+    /* border: 1.5px solid #009be6; */
     /* border-bottom: none; */
 }
 
@@ -129,12 +129,19 @@ tbody tr:nth-child(12) td:hover {
 }
 
 @media (max-width: 600px) {
+    .tabs {
+        gap: 0.5rem;
+    }
+    .tab-content {
+        padding-top: 5px;
+    }
     .charts {
         flex-direction: column;
         gap: 25px;
     }
     .chart-container {
         width: 100%;
+        margin: 0;
     }
     th {
         font-size: 1.5rem;
