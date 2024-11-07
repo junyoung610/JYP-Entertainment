@@ -25,14 +25,12 @@
     border-radius: 10px;
     position: absolute;
 
-    /* top: 100%; */
-    bottom: -100%;
+    top: 100%;
     opacity: 0;
     transition: 0.4s;
 }
 .artlst-pic:hover > .hover-artlst {
-    /* top: 100%; */
-    bottom: -70%;
+    top: calc(100% - 100px);
     opacity: 1;
     visibility: visible;
 }
@@ -50,5 +48,9 @@
 @media (max-width: 1100px) {
     .hover-txt {
         padding: 0px;
+    }
+
+    .artlst-pic:hover > .hover-artlst {
+        top: calc(100% - 45px);
     }
 }
