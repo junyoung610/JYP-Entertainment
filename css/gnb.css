@@ -164,6 +164,7 @@ img {
 
 @media (max-width: 600px) {
     #header {
+        padding: 0;
         height: 90px;
         position: relative;
     }

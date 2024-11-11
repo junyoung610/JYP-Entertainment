@@ -130,6 +130,10 @@ tbody tr:nth-child(12) td:hover {
 }
 
 @media (max-width: 600px) {
+    .tab-button {
+        padding: 16px;
+        font-size: 1.8rem;
+    }
     .tabs {
         gap: 0.5rem;
     }
